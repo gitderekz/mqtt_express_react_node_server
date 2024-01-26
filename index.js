@@ -36,6 +36,6 @@ app.get('/api',(req,res)=>{
     res.json({"mikoa":["kilimanjaro","arusha","manyara"]})
 })
 
-app.listen(5000, ()=>{
-    console.log('Server started at port: 5000')
+app.listen(6000, ()=>{
+    console.log('Server started at port: 6000')
 })
